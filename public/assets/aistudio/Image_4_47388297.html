@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/><meta content="mobile_tab" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { colors: { "secondary-fixed-dim": "#4edea3", "secondary": "#006c49", "background": "#faf8ff", "surface-dim": "#d2d9f4", "on-tertiary-fixed-variant": "#653e00", "on-secondary-fixed-variant": "#005236", "tertiary-container": "#825100", "tertiary-fixed-dim": "#ffb95f", "on-secondary": "#ffffff", "secondary-container": "#6cf8bb", "on-background": "#131b2e", "on-tertiary": "#ffffff", "outline-variant": "#c4c5d7", "on-tertiary-fixed": "#2a1700", "on-tertiary-container": "#ffcb8f", "inverse-on-surface": "#eef0ff", "on-primary-container": "#cad3ff", "surface-bright": "#faf8ff", "on-secondary-fixed": "#002113", "secondary-fixed": "#6ffbbe", "on-surface-variant": "#434655", "on-primary-fixed-variant": "#0039b5", "primary-container": "#1d4ed8", "tertiary": "#623c00", "surface-container": "#eaedff", "surface": "#faf8ff", "on-secondary-container": "#00714d", "outline": "#747686", "surface-tint": "#2151da", "surface-container-low": "#f2f3ff", "surface-variant": "#dae2fd", "on-error": "#ffffff", "primary": "#0037b0", "on-primary": "#ffffff", "error-container": "#ffdad6", "primary-fixed-dim": "#b7c4ff", "primary-fixed": "#dce1ff", "tertiary-fixed": "#ffddb8", "surface-container-highest": "#dae2fd", "inverse-surface": "#283044", "on-primary-fixed": "#001551", "surface-container-high": "#e2e7ff", "inverse-primary": "#b7c4ff", "error": "#ba1a1a", "on-surface": "#131b2e", "on-error-container": "#93000a", "surface-container-lowest": "#ffffff" }, borderRadius: { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, spacing: { "margin": "1rem", "space-md": "1rem", "space-xl": "2rem", "gutter": "1rem", "space-xs": "0.25rem", "space-lg": "1.5rem", "space-sm": "0.5rem" }, fontFamily: { "body-sm": ["Plus Jakarta Sans"], "display-lg": ["Plus Jakarta Sans"], "headline-md": ["Plus Jakarta Sans"], "label-md": ["Plus Jakarta Sans"], "title-md": ["Plus Jakarta Sans"], "label-lg": ["Plus Jakarta Sans"], "body-md": ["Plus Jakarta Sans"], "headline-sm": ["Plus Jakarta Sans"], "headline-lg": ["Plus Jakarta Sans"], "label-sm": ["Plus Jakarta Sans"], "body-lg": ["Plus Jakarta Sans"] }, fontSize: { "body-sm": ["12px", { "lineHeight": "16px", "fontWeight": "400" }], "display-lg": ["32px", { "lineHeight": "40px", "letterSpacing": "-0.02em", "fontWeight": "700" }], "headline-md": ["20px", { "lineHeight": "28px", "letterSpacing": "-0.01em", "fontWeight": "600" }], "label-md": ["12px", { "lineHeight": "16px", "letterSpacing": "0.02em", "fontWeight": "600" }], "title-md": ["16px", { "lineHeight": "22px", "fontWeight": "600" }], "label-lg": ["14px", { "lineHeight": "20px", "letterSpacing": "0.01em", "fontWeight": "600" }], "body-md": ["14px", { "lineHeight": "20px", "fontWeight": "400" }], "headline-sm": ["18px", { "lineHeight": "24px", "fontWeight": "600" }], "headline-lg": ["24px", { "lineHeight": "32px", "letterSpacing": "-0.015em", "fontWeight": "700" }], "label-sm": ["11px", { "lineHeight": "14px", "letterSpacing": "0.03em", "fontWeight": "600" }], "body-lg": ["16px", { "lineHeight": "24px", "fontWeight": "400" }] } } } };</script><style>@layer base{html,body{width:100%;min-height:100%;margin:0;padding:0;}body{overscroll-behavior-y:none;}.pb-safe{padding-bottom:env(safe-area-inset-bottom,0px);}.pt-safe{padding-top:env(safe-area-inset-top,0px);}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head><body class="bg-surface font-body-md text-on-surface flex flex-col min-h-screen"><header class="fixed top-0 inset-x-0 z-50 bg-surface/85 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)] pt-safe"><div class="h-16 px-gutter flex items-center justify-between"><div class="flex items-center gap-space-sm"><img alt="LabReserve Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1Xzpg_lS837oxSWCBlplqPFSe1nt2DTJ1AIdxqjatdVzRrR7i6J-ArBIpCR6ujvUTgfC9O5dPLrB8ZV1ZJYL7ctGQTOoSPZMHulQoRSa17Fv4mVDg6guuDd_z4Q1-Am2nDV7JbPb4CYe7bfR9ynMp_HVCn7f_nOCgeOPDsxkItcLA-B5UshpN73NcvRVRgyEoqgpzWF1HoK1mVzTQUgkBBPLuo0iR77yd1E9e6Y0-C7UqN-1DzRzCOViMI"/><div class="flex flex-col"><span class="font-headline-sm text-headline-sm text-primary leading-none">LabReserve</span><span class="font-label-sm text-label-sm text-on-surface-variant leading-none mt-0.5">Nova Reserva</span></div></div><div class="flex items-center gap-space-sm"><button aria-label="Notificações" class="w-11 h-11 flex items-center justify-center text-on-surface-variant hover:text-primary transition-colors"><span class="material-symbols-outlined text-[24px]">notifications</span></button><div class="flex items-center gap-space-xs"><img alt="Profile" class="w-8 h-8 rounded-full object-cover ring-2 ring-primary-fixed" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDlKNP45fFEPE8-tOAuDHEAj7iXJe0uFkM0jJkpZZktmdQxE9Q5wR09uoj-iU91RMcE6EW65ZtNxwbWhB7z9fP35KgI3U0LIZZjUGiX0E-wi2LNVMQUr5DgVmv3OLE86iR86ThM3mCcGSMvrrY_UNBoVX0wtWTuQhAqyA8Pq2pNpiMSkyaRCeY6BG5rAxxrq-yc-kcdMZmUW3LA5bhgUxSrjH75se-quNWoZIXqpZaP_mvT7D4Fs75_zg"/></div></div></div></header><main class="flex-1 flex flex-col relative w-full pt-16 pb-24 bg-surface"><div class="flex flex-col w-full px-margin pb-12 space-y-space-lg">
+<!-- Stepper de Progresso -->
+<section class="bg-surface-container-lowest p-space-md rounded-xl shadow-sm space-y-space-sm">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-space-xs text-primary font-label-md">
+<span class="material-symbols-outlined text-[18px]">tune</span>
+<span>Passo 1 de 3</span>
+</div>
+<span class="font-label-sm text-on-surface-variant">Parâmetros de Aula</span>
+</div>
+<!-- Barra de Progresso com Preenchimento Dinâmico -->
+<div class="w-full bg-surface-container-high h-2 rounded-full overflow-hidden">
+<div class="bg-primary-container h-full w-1/3 rounded-full transition-all duration-300"></div>
+</div>
+<div class="flex justify-between items-center text-on-surface-variant font-label-sm pt-1">
+<span class="text-primary font-label-md">1. Requisitos</span>
+<span>2. Escolha da Sala</span>
+<span>3. Confirmação</span>
+</div>
+</section>
+<!-- Contexto Acadêmico: Disciplina e Turma -->
+<section class="bg-surface-container-lowest p-space-md rounded-xl shadow-sm space-y-space-md">
+<div class="flex items-center gap-space-sm text-primary">
+<div class="w-9 h-9 rounded-lg bg-surface-container flex items-center justify-center">
+<span class="material-symbols-outlined text-primary text-[20px]">school</span>
+</div>
+<div>
+<h2 class="font-headline-sm text-headline-sm text-on-surface">Dados da Disciplina</h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Informe o plano de aula para alocação</p>
+</div>
+</div>
+<!-- Select Disciplina -->
+<div class="space-y-space-xs">
+<label class="font-label-md text-label-md text-on-surface" for="select-disciplina">Matéria / Disciplina</label>
+<div class="relative">
+<select class="w-full h-12 pl-4 pr-10 rounded-lg bg-surface-container-low text-on-surface font-body-md text-body-md appearance-none focus:outline-none focus:bg-surface-container-high transition-colors" id="select-disciplina">
+<option selected="" value="web-mobile">Desenvolvimento Web &amp; Mobile</option>
+<option value="bd2">Banco de Dados II</option>
+<option value="eng-soft">Engenharia de Software</option>
+<option value="sist-distrib">Sistemas Distribuídos</option>
+</select>
+<span class="material-symbols-outlined absolute right-3 top-3 text-on-surface-variant pointer-events-none text-[20px]">expand_more</span>
+</div>
+</div>
+<!-- Select Turma -->
+<div class="space-y-space-xs">
+<label class="font-label-md text-label-md text-on-surface" for="select-turma">Turma Designada</label>
+<div class="relative">
+<select class="w-full h-12 pl-4 pr-10 rounded-lg bg-surface-container-low text-on-surface font-body-md text-body-md appearance-none focus:outline-none focus:bg-surface-container-high transition-colors" id="select-turma">
+<option selected="" value="turma-b">Turma B - Noturno (Eng. Computação)</option>
+<option value="turma-a">Turma A - Matutino (Sistemas de Informação)</option>
+<option value="turma-c">Turma C - Vespertino (Ciência da Computação)</option>
+</select>
+<span class="material-symbols-outlined absolute right-3 top-3 text-on-surface-variant pointer-events-none text-[20px]">groups</span>
+</div>
+</div>
+</section>
+<!-- Lotação e Capacidade Necessária -->
+<section class="bg-surface-container-lowest p-space-md rounded-xl shadow-sm space-y-space-md">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-space-sm text-primary">
+<div class="w-9 h-9 rounded-lg bg-surface-container flex items-center justify-center">
+<span class="material-symbols-outlined text-primary text-[20px]">person_check</span>
+</div>
+<div>
+<h2 class="font-headline-sm text-headline-sm text-on-surface">Quantidade de Alunos</h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Postos de trabalho necessários</p>
+</div>
+</div>
+<span class="bg-secondary-container text-on-secondary-container font-label-sm text-label-sm px-2.5 py-1 rounded-full flex items-center gap-1">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span>
+        1:1 Aluno/PC
+      </span>
+</div>
+<!-- Card Contador Dinâmico -->
+<div class="bg-surface-container-low p-space-md rounded-xl flex items-center justify-between">
+<button aria-label="Diminuir alunos" class="w-11 h-11 rounded-lg bg-surface-container-lowest text-on-surface flex items-center justify-center shadow-sm active:scale-95 transition-transform" id="btn-decrement" type="button">
+<span class="material-symbols-outlined text-[20px]">remove</span>
+</button>
+<div class="flex flex-col items-center">
+<span class="font-display-lg text-display-lg text-primary leading-none" id="student-count-display">32</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant mt-0.5">estações ativas</span>
+</div>
+<button aria-label="Aumentar alunos" class="w-11 h-11 rounded-lg bg-surface-container-lowest text-on-surface flex items-center justify-center shadow-sm active:scale-95 transition-transform" id="btn-increment" type="button">
+<span class="material-symbols-outlined text-[20px]">add</span>
+</button>
+</div>
+<!-- Slider de Ajuste Fino -->
+<div class="space-y-space-xs pt-1">
+<div class="flex justify-between font-label-sm text-label-sm text-on-surface-variant">
+<span>Min: 1</span>
+<span>Ajuste Rápido</span>
+<span>Máx: 50</span>
+</div>
+<input class="w-full accent-primary-container h-2 bg-surface-container rounded-lg cursor-pointer" id="student-slider" max="50" min="1" type="range" value="32"/>
+</div>
+<!-- Aviso Dinâmico Inteligente -->
+<div class="bg-surface-container-high p-space-sm rounded-lg flex items-center gap-space-sm text-on-surface" id="capacity-warning">
+<span class="material-symbols-outlined text-primary text-[20px]">info</span>
+<p class="font-body-sm text-body-sm" id="capacity-warning-text">Recomendado labs com no mínimo <strong>35 estações</strong> (reserva de margem).</p>
+</div>
+</section>
+<!-- Data e Horários de Uso -->
+<section class="bg-surface-container-lowest p-space-md rounded-xl shadow-sm space-y-space-md">
+<div class="flex items-center gap-space-sm text-primary">
+<div class="w-9 h-9 rounded-lg bg-surface-container flex items-center justify-center">
+<span class="material-symbols-outlined text-primary text-[20px]">event</span>
+</div>
+<div>
+<h2 class="font-headline-sm text-headline-sm text-on-surface">Data e Horário</h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Selecione o dia e o bloco de aulas</p>
+</div>
+</div>
+<!-- Carrossel Horizontal de Datas -->
+<div class="space-y-space-xs">
+<span class="font-label-md text-label-md text-on-surface">Data Selecionada: <strong class="text-primary" id="selected-date-text">Sex, 27 de Outubro</strong></span>
+<div class="flex gap-2 overflow-x-auto pb-2 pt-1 -mx-2 px-2 no-scrollbar">
+<!-- Dia 1 -->
+<button class="date-chip flex-shrink-0 w-16 py-2.5 rounded-xl bg-surface-container-low text-on-surface flex flex-col items-center gap-0.5 transition-all" data-date="Qua, 25 de Outubro" type="button">
+<span class="font-label-sm text-label-sm opacity-80">QUA</span>
+<span class="font-headline-sm text-headline-sm">25</span>
+</button>
+<!-- Dia 2 -->
+<button class="date-chip flex-shrink-0 w-16 py-2.5 rounded-xl bg-surface-container-low text-on-surface flex flex-col items-center gap-0.5 transition-all" data-date="Qui, 26 de Outubro" type="button">
+<span class="font-label-sm text-label-sm opacity-80">QUI</span>
+<span class="font-headline-sm text-headline-sm">26</span>
+</button>
+<!-- Dia 3 (Ativo) -->
+<button class="date-chip flex-shrink-0 w-16 py-2.5 rounded-xl bg-primary text-on-primary flex flex-col items-center gap-0.5 transition-all shadow-sm" data-date="Sex, 27 de Outubro" type="button">
+<span class="font-label-sm text-label-sm opacity-90">SEX</span>
+<span class="font-headline-sm text-headline-sm">27</span>
+</button>
+<!-- Dia 4 -->
+<button class="date-chip flex-shrink-0 w-16 py-2.5 rounded-xl bg-surface-container-low text-on-surface flex flex-col items-center gap-0.5 transition-all" data-date="Seg, 30 de Outubro" type="button">
+<span class="font-label-sm text-label-sm opacity-80">SEG</span>
+<span class="font-headline-sm text-headline-sm">30</span>
+</button>
+<!-- Dia 5 -->
+<button class="date-chip flex-shrink-0 w-16 py-2.5 rounded-xl bg-surface-container-low text-on-surface flex flex-col items-center gap-0.5 transition-all" data-date="Ter, 31 de Outubro" type="button">
+<span class="font-label-sm text-label-sm opacity-80">TER</span>
+<span class="font-headline-sm text-headline-sm">31</span>
+</button>
+<!-- Dia 6 -->
+<button class="date-chip flex-shrink-0 w-16 py-2.5 rounded-xl bg-surface-container-low text-on-surface flex flex-col items-center gap-0.5 transition-all" data-date="Qua, 01 de Novembro" type="button">
+<span class="font-label-sm text-label-sm opacity-80">QUA</span>
+<span class="font-headline-sm text-headline-sm">01</span>
+</button>
+</div>
+</div>
+<!-- Bloco de Início e Término -->
+<div class="grid grid-cols-2 gap-space-sm pt-1">
+<div class="space-y-space-xs">
+<label class="font-label-md text-label-md text-on-surface" for="time-start">Horário Início</label>
+<div class="relative">
+<select class="w-full h-12 pl-3 pr-8 rounded-lg bg-surface-container-low text-on-surface font-body-md text-body-md appearance-none focus:outline-none" id="time-start">
+<option value="13:30">13:30</option>
+<option selected="" value="14:00">14:00</option>
+<option value="15:00">15:00</option>
+<option value="18:30">18:30</option>
+<option value="19:15">19:15</option>
+</select>
+<span class="material-symbols-outlined absolute right-2.5 top-3 text-on-surface-variant pointer-events-none text-[18px]">schedule</span>
+</div>
+</div>
+<div class="space-y-space-xs">
+<label class="font-label-md text-label-md text-on-surface" for="time-end">Horário Término</label>
+<div class="relative">
+<select class="w-full h-12 pl-3 pr-8 rounded-lg bg-surface-container-low text-on-surface font-body-md text-body-md appearance-none focus:outline-none" id="time-end">
+<option value="16:00">16:00</option>
+<option value="17:00">17:00</option>
+<option selected="" value="17:30">17:30</option>
+<option value="21:00">21:00</option>
+<option value="22:00">22:00</option>
+</select>
+<span class="material-symbols-outlined absolute right-2.5 top-3 text-on-surface-variant pointer-events-none text-[18px]">timelapse</span>
+</div>
+</div>
+</div>
+<!-- Badge Automático de Duração -->
+<div class="flex items-center justify-between bg-surface-container-high px-space-md py-2.5 rounded-lg">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Tempo total de ocupação</span>
+<span class="bg-primary-fixed text-on-primary-fixed font-label-md text-label-md px-3 py-1 rounded-full flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px]">hourglass_top</span>
+        Duração: 3h 30min
+      </span>
+</div>
+</section>
+<!-- Softwares Específicos Necessários -->
+<section class="bg-surface-container-lowest p-space-md rounded-xl shadow-sm space-y-space-md">
+<div class="flex items-center gap-space-sm text-primary">
+<div class="w-9 h-9 rounded-lg bg-surface-container flex items-center justify-center">
+<span class="material-symbols-outlined text-primary text-[20px]">terminal</span>
+</div>
+<div>
+<h2 class="font-headline-sm text-headline-sm text-on-surface">Softwares &amp; Ambiente</h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Filtre laboratórios com a pilha pronta</p>
+</div>
+</div>
+<!-- Categoria: IDEs & Código -->
+<div class="space-y-space-xs">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">IDEs &amp; Código</span>
+<div class="flex flex-wrap gap-2">
+<button class="software-pill px-3 py-1.5 rounded-full font-label-md text-label-md bg-primary-container text-on-primary flex items-center gap-1.5 transition-all shadow-sm" data-selected="true" type="button">
+<span class="material-symbols-outlined text-[16px]">check_circle</span>
+          VS Code
+        </button>
+<button class="software-pill px-3 py-1.5 rounded-full font-label-md text-label-md bg-surface-container-low text-on-surface flex items-center gap-1.5 transition-all" data-selected="false" type="button">
+<span class="material-symbols-outlined text-[16px] text-on-surface-variant">add</span>
+          IntelliJ IDEA
+        </button>
+<button class="software-pill px-3 py-1.5 rounded-full font-label-md text-label-md bg-primary-container text-on-primary flex items-center gap-1.5 transition-all shadow-sm" data-selected="true" type="button">
+<span class="material-symbols-outlined text-[16px]">check_circle</span>
+          Android Studio
+        </button>
+<button class="software-pill px-3 py-1.5 rounded-full font-label-md text-label-md bg-surface-container-low text-on-surface flex items-center gap-1.5 transition-all" data-selected="false" type="button">
+<span class="material-symbols-outlined text-[16px] text-on-surface-variant">add</span>
+          Eclipse
+        </button>
+</div>
+</div>
+<!-- Categoria: Bancos & Dados -->
+<div class="space-y-space-xs pt-1">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Bancos &amp; Dados</span>
+<div class="flex flex-wrap gap-2">
+<button class="software-pill px-3 py-1.5 rounded-full font-label-md text-label-md bg-primary-container text-on-primary flex items-center gap-1.5 transition-all shadow-sm" data-selected="true" type="button">
+<span class="material-symbols-outlined text-[16px]">check_circle</span>
+          PostgreSQL / DBeaver
+        </button>
+<button class="software-pill px-3 py-1.5 rounded-full font-label-md text-label-md bg-surface-container-low text-on-surface flex items-center gap-1.5 transition-all" data-selected="false" type="button">
+<span class="material-symbols-outlined text-[16px] text-on-surface-variant">add</span>
+          MySQL Workbench
+        </button>
+<button class="software-pill px-3 py-1.5 rounded-full font-label-md text-label-md bg-surface-container-low text-on-surface flex items-center gap-1.5 transition-all" data-selected="false" type="button">
+<span class="material-symbols-outlined text-[16px] text-on-surface-variant">add</span>
+          MongoDB
+        </button>
+</div>
+</div>
+<!-- Categoria: Engenharia & Design -->
+<div class="space-y-space-xs pt-1">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Engenharia &amp; Design</span>
+<div class="flex flex-wrap gap-2">
+<button class="software-pill px-3 py-1.5 rounded-full font-label-md text-label-md bg-surface-container-low text-on-surface flex items-center gap-1.5 transition-all" data-selected="false" type="button">
+<span class="material-symbols-outlined text-[16px] text-on-surface-variant">add</span>
+          AutoCAD
+        </button>
+<button class="software-pill px-3 py-1.5 rounded-full font-label-md text-label-md bg-surface-container-low text-on-surface flex items-center gap-1.5 transition-all" data-selected="false" type="button">
+<span class="material-symbols-outlined text-[16px] text-on-surface-variant">add</span>
+          Blender
+        </button>
+<button class="software-pill px-3 py-1.5 rounded-full font-label-md text-label-md bg-surface-container-low text-on-surface flex items-center gap-1.5 transition-all" data-selected="false" type="button">
+<span class="material-symbols-outlined text-[16px] text-on-surface-variant">add</span>
+          Figma Desktop
+        </button>
+<button class="software-pill px-3 py-1.5 rounded-full font-label-md text-label-md bg-surface-container-low text-on-surface flex items-center gap-1.5 transition-all" data-selected="false" type="button">
+<span class="material-symbols-outlined text-[16px] text-on-surface-variant">add</span>
+          MATLAB
+        </button>
+</div>
+</div>
+<!-- Campo de Texto Adicional -->
+<div class="space-y-space-xs pt-1">
+<label class="font-label-md text-label-md text-on-surface" for="outros-softwares">Outro software ou dependência específica</label>
+<input class="w-full h-12 px-4 rounded-lg bg-surface-container-low text-on-surface font-body-md text-body-md placeholder-on-surface-variant/60 focus:outline-none focus:bg-surface-container-high transition-colors" id="outros-softwares" placeholder="ex: bibliotecas pip, Node v18, Docker compose" type="text"/>
+</div>
+</section>
+<!-- CTA de Ação Primária -->
+<section class="pt-2">
+<button class="w-full h-14 bg-primary-container text-on-primary rounded-xl font-title-md text-title-md shadow-md flex items-center justify-center gap-2 active:scale-[0.99] transition-transform" type="button">
+<span>Buscar Laboratórios Disponíveis</span>
+<span class="bg-primary text-on-primary font-label-sm text-label-sm px-2 py-0.5 rounded-full">(4 compatíveis)</span>
+<span class="material-symbols-outlined text-[20px]">arrow_forward</span>
+</button>
+<p class="text-center font-label-sm text-label-sm text-on-surface-variant mt-2">
+      Disponibilidade conferida em tempo real com o DTI
+    </p>
+</section>
+</div>
+<script>
+  // Lógica Reativa do Contador de Alunos & Slider
+  const countDisplay = document.getElementById('student-count-display');
+  const slider = document.getElementById('student-slider');
+  const btnInc = document.getElementById('btn-increment');
+  const btnDec = document.getElementById('btn-decrement');
+  const warningText = document.getElementById('capacity-warning-text');
+
+  function updateCount(val) {
+    let num = parseInt(val, 10);
+    if (isNaN(num)) num = 32;
+    num = Math.max(1, Math.min(50, num));
+    
+    countDisplay.textContent = num;
+    slider.value = num;
+    
+    const rec = num + 3;
+    warningText.innerHTML = `Recomendado labs com no mínimo <strong>${rec} estações</strong> (reserva de margem).`;
+  }
+
+  slider.addEventListener('input', (e) => updateCount(e.target.value));
+  btnInc.addEventListener('click', () => updateCount(parseInt(slider.value, 10) + 1));
+  btnDec.addEventListener('click', () => updateCount(parseInt(slider.value, 10) - 1));
+
+  // Seleção Dinâmica do Carrossel de Datas
+  const dateChips = document.querySelectorAll('.date-chip');
+  const selectedDateText = document.getElementById('selected-date-text');
+
+  dateChips.forEach(chip => {
+    chip.addEventListener('click', () => {
+      dateChips.forEach(c => {
+        c.classList.remove('bg-primary', 'text-on-primary', 'shadow-sm');
+        c.classList.add('bg-surface-container-low', 'text-on-surface');
+      });
+      chip.classList.remove('bg-surface-container-low', 'text-on-surface');
+      chip.classList.add('bg-primary', 'text-on-primary', 'shadow-sm');
+      selectedDateText.textContent = chip.getAttribute('data-date');
+    });
+  });
+
+  // Toggle de Chips de Softwares
+  const pills = document.querySelectorAll('.software-pill');
+  pills.forEach(pill => {
+    pill.addEventListener('click', () => {
+      const isSelected = pill.getAttribute('data-selected') === 'true';
+      const icon = pill.querySelector('.material-symbols-outlined');
+      
+      if (isSelected) {
+        pill.setAttribute('data-selected', 'false');
+        pill.classList.remove('bg-primary-container', 'text-on-primary', 'shadow-sm');
+        pill.classList.add('bg-surface-container-low', 'text-on-surface');
+        icon.textContent = 'add';
+        icon.classList.add('text-on-surface-variant');
+      } else {
+        pill.setAttribute('data-selected', 'true');
+        pill.classList.remove('bg-surface-container-low', 'text-on-surface');
+        pill.classList.add('bg-primary-container', 'text-on-primary', 'shadow-sm');
+        icon.textContent = 'check_circle';
+        icon.classList.remove('text-on-surface-variant');
+      }
+    });
+  });
+</script></main><nav class="fixed bottom-0 inset-x-0 z-50 pb-safe bg-surface/90 backdrop-blur-xl shadow-[0_-2px_10px_rgba(0,0,0,0.04)]" data-active-classes="text-primary font-label-md"><div class="flex justify-around items-center h-16 px-space-xs"><a class="flex flex-col items-center justify-center min-w-[64px] min-h-[44px] gap-0.5 text-on-surface-variant hover:text-on-surface transition-colors" data-path="inicio" href="#"><span class="material-symbols-outlined text-[24px]">calendar_today</span><span class="font-label-sm text-label-sm">Início</span></a><a aria-current="page" class="flex flex-col items-center justify-center min-w-[64px] min-h-[44px] gap-0.5 transition-colors text-primary font-label-md" data-path="nova-reserva" href="#"><div class="w-8 h-8 rounded-full bg-primary-container text-on-primary flex items-center justify-center shadow-sm"><span class="material-symbols-outlined text-[20px]">add</span></div><span class="font-label-sm text-label-sm">Reservar</span></a><a class="flex flex-col items-center justify-center min-w-[64px] min-h-[44px] gap-0.5 text-on-surface-variant hover:text-on-surface transition-colors" data-path="laboratorios" href="#"><span class="material-symbols-outlined text-[24px]">desktop_windows</span><span class="font-label-sm text-label-sm">Laboratórios</span></a><a class="flex flex-col items-center justify-center min-w-[64px] min-h-[44px] gap-0.5 text-on-surface-variant hover:text-on-surface transition-colors" data-path="historico" href="#"><span class="material-symbols-outlined text-[24px]">schedule</span><span class="font-label-sm text-label-sm">Histórico</span></a></div></nav></body></html>
